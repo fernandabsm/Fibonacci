@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Fibonacci sequence algorithm without recursion */
+
 void fiboncci(int n)
 {
     int sum = 0, next = 1, previous = 0;
